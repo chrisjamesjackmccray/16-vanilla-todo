@@ -10,18 +10,6 @@ document
     render();
   });
 
- // class alltodos = {
- //   let todoone = document.createElement("div");
- //   list.innerHTML = innerHTML + 'Bag'
- //
- //   let todotwo = document.createElement("div");
- //   list.innerHTML = innerHTML + 'Orange'
- //
- //   let todothree = document.createElement("div");
- //   list.innerHTML = innerHTML + 'Fruit'
- // }
-
-
 
 function Todo(item) {
   this.item = item;
@@ -36,11 +24,33 @@ function render() {
    let div = document.createElement('div');
    div.classList.add("todo");
    div.innerHTML = todo.item;
+
+   if (todo.completed == true) {
+     div.classList.add("completed");
+   }
+
+   div.addEventListener("click", function() {
+     togglecompleted(todo);
+     render();
+     console.log(todo);
+   });
+
    document.querySelector("#todos").appendChild(div);
 
    console.log(div);
  })
 }
+
+function togglecompleted(todo) {
+  todo.completed = !todo.completed;
+}
+
+
+
+
+
+
+
 
 
 
