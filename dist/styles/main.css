@@ -1,21 +1,65 @@
-.todo.completed {
-  text-decoration: line-through; }
-
-.form {
-  margin: 0 auto; }
-
-.main {
-  width: 500px;
-  height: 400px;
-  margin: 0 auto; }
+.title {
+  text-align: center; }
 
 .todo.completed {
-  text-decoration: line-through; }
+  text-decoration: line-through;
+  cursor: pointer; }
+
+.todo {
+  margin: 0 auto;
+  font-size: 2rem;
+  cursor: pointer; }
+
+#todos {
+  position: absolute;
+  color: #5e5c5d; }
 
 .form {
-  margin: 0 auto; }
+  margin: 0 0 0 40px; }
 
 .main {
-  width: 500px;
+  width: 400px;
   height: 400px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  border: 1px solid lightgray;
+  padding: 10px;
+  position: relative; }
+
+.both {
+  margin: 20px 0 0 70px; }
+
+input[type=button] {
+  cursor: pointer; }
+
+.title {
+  text-align: center; }
+
+.todo.completed {
+  text-decoration: line-through;
+  cursor: pointer; }
+
+.todo {
+  margin: 0 auto;
+  font-size: 2rem;
+  cursor: pointer; }
+
+#todos {
+  position: absolute;
+  color: #5e5c5d; }
+
+.form {
+  margin: 0 0 0 40px; }
+
+.main {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  border: 1px solid lightgray;
+  padding: 10px;
+  position: relative; }
+
+.both {
+  margin: 20px 0 0 70px; }
+
+input[type=button] {
+  cursor: pointer; }
