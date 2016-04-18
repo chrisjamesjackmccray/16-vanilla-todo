@@ -11,7 +11,6 @@
   cursor: pointer; }
 
 #todos {
-  position: absolute;
   color: #5e5c5d; }
 
 .form {
@@ -19,11 +18,9 @@
 
 .main {
   width: 400px;
-  height: 400px;
   margin: 0 auto;
   border: 1px solid lightgray;
-  padding: 10px;
-  position: relative; }
+  padding: 10px; }
 
 .both {
   margin: 20px 0 0 70px; }
@@ -44,7 +41,6 @@ input[type=button] {
   cursor: pointer; }
 
 #todos {
-  position: absolute;
   color: #5e5c5d; }
 
 .form {
@@ -52,11 +48,9 @@ input[type=button] {
 
 .main {
   width: 400px;
-  height: 400px;
   margin: 0 auto;
   border: 1px solid lightgray;
-  padding: 10px;
-  position: relative; }
+  padding: 10px; }
 
 .both {
   margin: 20px 0 0 70px; }
